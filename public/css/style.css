@@ -1,0 +1,91 @@
+.draw{
+    position: relative;
+    box-sizing: border-box;
+}
+.name{
+    position: absolute;
+    font-size: 42px;
+    font-weight: 800;
+    width: 500px;
+    top: calc(35%);
+    left: calc(50% - 250px);
+}
+.btn_start{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: aqua;
+    font-size: 24px;
+    font-weight: 600;
+    border: 3px solid black;
+    top: calc(50% - 25px);
+    left: calc(50% - 100px);
+}
+.btn_start:hover{
+    background-color: yellow;
+    border: 3px solid red;
+}
+.reward{
+    position: absolute;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    width: 200px;
+    left: calc(50% - 100px);
+    bottom: 35%;
+}
+.screen1{
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    background-color: wheat;
+    border: 5px solid black;
+    visibility: hidden;
+    z-index: 1;
+}
+.screen2{
+    width: 1200px;
+    height: 800px;
+    position: absolute;
+    background-color: wheat;
+    border: 5px solid black;
+    visibility: visible;
+    z-index: 1;
+}
+.timer{
+    position: absolute;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px;
+    z-index: 1;
+}
+.circle{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid black;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    /* line-height: 30px; chỉnh bằng độ dài của thuộc tính thì chữ sẽ nằm vào giữa thuộc tính */
+    line-height: 60px;
+    /* Ẩn để lúc bắt đầu game các div.circle không dồn lại ở trái trên */
+    visibility: hidden;
+}
+.c1{
+    background-color: red;
+}
+.c2{
+    background-color: blue;
+}
+.c3{
+    background-color: green;
+}
+.c4{
+    background-color: orange;
+}
+.c5{
+    background-color: black;
+}
